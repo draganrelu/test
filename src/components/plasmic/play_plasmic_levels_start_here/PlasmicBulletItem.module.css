@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.bullet:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.box___8Ro6U {
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.box__ho8YT {
+  display: flex;
+  position: relative;
+}
+.slotChildren {
+  font-family: IBM Plex Sans Condensed;
+  font-size: 16px;
+}

@@ -1,0 +1,118 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  min-width: 0;
+}
+.box__th1Gw {
+  display: flex;
+  position: relative;
+  height: auto;
+  width: 86px;
+  justify-content: center;
+}
+.img {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+.img__variants_row {
+  left: auto;
+  top: auto;
+}
+.box___1URKw {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+.box___1URKw > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.box___1URKw > :global(.__wab_flex-container) > *,
+.box___1URKw > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.box__variants_row___1URKw1Rn5I {
+  left: auto;
+  top: auto;
+  display: flex;
+}
+.box___67CW3 {
+  position: relative;
+}
+.box__variants_row___67CW31Rn5I {
+  left: auto;
+  top: auto;
+}
+.box__p687G {
+  position: relative;
+  color: rgb(172, 172, 172);
+}
+.box__variants_row__p687G1Rn5I {
+  left: auto;
+  top: auto;
+}
+.box__cf60W {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+.box__cf60W > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.box__cf60W > :global(.__wab_flex-container) > *,
+.box__cf60W > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 4px;
+}
+.box__variants_row__cf60W1Rn5I {
+  left: auto;
+  top: auto;
+  display: flex;
+}
+.box__znPzD {
+  position: relative;
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(172, 172, 172);
+  text-align: left;
+  text-transform: none;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-overflow: clip;
+}
+.box__variants_row__znPzD1Rn5I {
+  left: auto;
+  top: auto;
+}
+.box__ikRJk {
+  position: relative;
+  color: rgb(172, 172, 172);
+  font-size: 12px;
+}
+.box__variants_row__ikRJk1Rn5I {
+  left: auto;
+  top: auto;
+}

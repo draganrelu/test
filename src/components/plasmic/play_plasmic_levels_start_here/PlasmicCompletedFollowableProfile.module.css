@@ -1,0 +1,90 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 300px;
+  padding: 8px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(221, 221, 221);
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+}
+.img {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  box-shadow: none;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid rgb(212, 87, 87);
+}
+.box___4YgQh {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.box___4YgQh > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.box___4YgQh > :global(.__wab_flex-container) > *,
+.box___4YgQh > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 2px;
+}
+.box__zBiZh {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box__zBiZh > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.box__zBiZh > :global(.__wab_flex-container) > *,
+.box__zBiZh > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.box__bws5F {
+  font-weight: 700;
+  font-size: 18px;
+}
+.box__rHomQ {
+  color: rgb(129, 129, 129);
+}
+.box__szHsf {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.box__szHsf > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.box__szHsf > :global(.__wab_flex-container) > *,
+.box__szHsf > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.blockButton:global(.__wab_instance) {
+  position: relative;
+}

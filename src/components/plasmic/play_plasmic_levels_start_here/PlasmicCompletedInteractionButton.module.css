@@ -1,0 +1,14 @@
+.root {
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding: 5px 10px;
+  background: rgb(48, 143, 232);
+  border-width: 1px;
+  border-style: none;
+}
+.root:hover {
+  background: rgb(78, 165, 246);
+}
+.root:active {
+  background: rgb(24, 116, 204);
+}

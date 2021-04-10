@@ -1,0 +1,104 @@
+.root {
+  display: flex;
+  width: 421px;
+  height: auto;
+  position: relative;
+  flex-direction: row;
+  padding: 10px;
+  background: rgb(255, 255, 255);
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+}
+.img {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 99px;
+}
+.box__siDzX {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 323px;
+  height: auto;
+  flex-shrink: 0;
+}
+.box__siDzX > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.box__siDzX > :global(.__wab_flex-container) > *,
+.box__siDzX > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 8px;
+}
+.box__mgmDe {
+  position: relative;
+  font-weight: 700;
+}
+.box__fCQoM {
+  position: relative;
+  width: 313px;
+}
+.box__e8Xmb {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+.box__e8Xmb > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 30px);
+  width: calc(100% + 30px);
+}
+.box__e8Xmb > :global(.__wab_flex-container) > *,
+.box__e8Xmb > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 30px;
+}
+.svg__iFe5M {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.svg__qn2Lf {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.svg___4CMEz {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.svg__hnkDd {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}

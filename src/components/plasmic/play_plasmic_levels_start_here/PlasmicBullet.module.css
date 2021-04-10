@@ -1,0 +1,15 @@
+.root {
+  width: 24px;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+.box {
+  display: flex;
+  position: relative;
+}
+.slotChildren {
+  font-family: IBM Plex Sans Condensed;
+  font-size: 16px;
+}

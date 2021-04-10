@@ -1,0 +1,90 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 300px;
+  padding: 8px;
+  background: rgb(255, 255, 255);
+  border: 2px solid rgb(221, 221, 221);
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  margin-left: calc(0px - 10px);
+  width: calc(100% + 10px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 10px;
+}
+.img {
+  display: flex;
+  position: relative;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  box-shadow: none;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 2px solid rgb(212, 87, 87);
+}
+.box__fzkZd {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.box__fzkZd > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.box__fzkZd > :global(.__wab_flex-container) > *,
+.box__fzkZd > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 2px;
+}
+.box__o7H9 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.box__o7H9 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.box__o7H9 > :global(.__wab_flex-container) > *,
+.box__o7H9 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.box__iJlvq {
+  font-weight: 700;
+  font-size: 18px;
+}
+.box__hPsXv {
+  color: rgb(129, 129, 129);
+}
+.box__xgh1U {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.box__xgh1U > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.box__xgh1U > :global(.__wab_flex-container) > *,
+.box__xgh1U > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.blockButton:global(.__wab_instance) {
+  position: relative;
+}
